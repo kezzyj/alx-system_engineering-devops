@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f | tail 10
+find -mindepth 1 -type f | tail -n 10
