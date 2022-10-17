@@ -2,4 +2,4 @@
 
 # Connects to my server 35352-web-01
 
-ssh -i ~/.ssh/school ubuntu
+ssh -i ~/.ssh/school ubuntu@8.8.8.8
