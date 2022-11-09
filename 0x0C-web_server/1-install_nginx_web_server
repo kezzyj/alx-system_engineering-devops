@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Installs Nginx with the following configurations:
 
 #+    Listens on port 80.
