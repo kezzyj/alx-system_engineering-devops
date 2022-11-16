@@ -4,7 +4,7 @@
 
 
 
-while read passwd; do
+while read -r  passwd; do
 
   echo "$passwd" | cut -d ':' -f1,3,6
 
