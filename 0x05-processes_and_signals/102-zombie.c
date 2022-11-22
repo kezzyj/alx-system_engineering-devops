@@ -9,13 +9,8 @@
 #include <unistd.h>
 
 /**
-
  * infinite_while - Run an infinite while loop.
-
- *
-
  * Return: Always 0.
-
  */
 
 int infinite_while(void)
@@ -37,13 +32,8 @@ int infinite_while(void)
 
 
 /**
-
  * main - Creates five zombie processes.
-
- *
-
- * Return: Always 0.
-
+ * Return: Always 0
  */
 
 int main(void)
