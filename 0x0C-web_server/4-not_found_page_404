@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Installs Nginx with the following configurations:
 
 #+    Listens on port 80.
@@ -24,7 +23,7 @@ mkdir /etc/nginx/html
 
 touch /etc/nginx/html/index.html
 
-echo "Holberton School" > /etc/nginx/html/index.html
+echo "Hello World!" > /etc/nginx/html/index.html
 
 touch /etc/nginx/html/404.html
 
