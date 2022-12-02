@@ -71,9 +71,9 @@ listen hbnb
 
     option forwardfor
 
-    server 35352-web-01 52.87.235.161 check
+    server 35352-web-01 52.87.235.161:80 check
 
-    server 35352-web-02	54.175.199.80 check
+    server 35352-web-02	54.175.199.80:80 check
 
 " >> /etc/haproxy/haproxy.cfg
 
